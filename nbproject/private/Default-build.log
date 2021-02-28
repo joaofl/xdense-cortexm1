@@ -1,0 +1,324 @@
+mkdir -p "stdio_redirect/gcc"
+mkdir -p "hpl/tc"
+mkdir -p "samd21a/gcc/gcc"
+mkdir -p "hpl/dmac"
+mkdir -p "hpl/pac"
+mkdir -p "hal/src"
+mkdir -p "hpl/pm"
+mkdir -p "hpl/core"
+mkdir -p "hpl/sysctrl"
+mkdir -p "hal/utils/src"
+mkdir -p "hpl/sercom"
+mkdir -p "examples"
+mkdir -p "hpl/gclk"
+mkdir -p "hpl/rtc"
+mkdir -p "hpl/dsu"
+Building file: ../hal/src/hal_io.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_io.d" -MT"hal/src/hal_io.d" -MT"hal/src/hal_io.o"  -o "hal/src/hal_io.o" "../hal/src/hal_io.c"
+Finished building: ../hal/src/hal_io.c
+Building file: ../stdio_redirect/stdio_io.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "stdio_redirect/stdio_io.d" -MT"stdio_redirect/stdio_io.d" -MT"stdio_redirect/stdio_io.o"  -o "stdio_redirect/stdio_io.o" "../stdio_redirect/stdio_io.c"
+Finished building: ../stdio_redirect/stdio_io.c
+Building file: ../samd21a/gcc/gcc/startup_samd21.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "samd21a/gcc/gcc/startup_samd21.d" -MT"samd21a/gcc/gcc/startup_samd21.d" -MT"samd21a/gcc/gcc/startup_samd21.o"  -o "samd21a/gcc/gcc/startup_samd21.o" "../samd21a/gcc/gcc/startup_samd21.c"
+Finished building: ../samd21a/gcc/gcc/startup_samd21.c
+Building file: ../stdio_redirect/gcc/write.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "stdio_redirect/gcc/write.d" -MT"stdio_redirect/gcc/write.d" -MT"stdio_redirect/gcc/write.o"  -o "stdio_redirect/gcc/write.o" "../stdio_redirect/gcc/write.c"
+Finished building: ../stdio_redirect/gcc/write.c
+Building file: ../hal/utils/src/utils_syscalls.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/utils/src/utils_syscalls.d" -MT"hal/utils/src/utils_syscalls.d" -MT"hal/utils/src/utils_syscalls.o"  -o "hal/utils/src/utils_syscalls.o" "../hal/utils/src/utils_syscalls.c"
+Finished building: ../hal/utils/src/utils_syscalls.c
+Building file: ../hal/src/hal_timer.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_timer.d" -MT"hal/src/hal_timer.d" -MT"hal/src/hal_timer.o"  -o "hal/src/hal_timer.o" "../hal/src/hal_timer.c"
+Finished building: ../hal/src/hal_timer.c
+Building file: ../hal/src/hal_pwm.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_pwm.d" -MT"hal/src/hal_pwm.d" -MT"hal/src/hal_pwm.o"  -o "hal/src/hal_pwm.o" "../hal/src/hal_pwm.c"
+Finished building: ../hal/src/hal_pwm.c
+Building file: ../hal/src/hal_i2c_m_sync.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_i2c_m_sync.d" -MT"hal/src/hal_i2c_m_sync.d" -MT"hal/src/hal_i2c_m_sync.o"  -o "hal/src/hal_i2c_m_sync.o" "../hal/src/hal_i2c_m_sync.c"
+Finished building: ../hal/src/hal_i2c_m_sync.c
+Building file: ../hal/src/hal_delay.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_delay.d" -MT"hal/src/hal_delay.d" -MT"hal/src/hal_delay.o"  -o "hal/src/hal_delay.o" "../hal/src/hal_delay.c"
+Finished building: ../hal/src/hal_delay.c
+Building file: ../hpl/sysctrl/hpl_sysctrl.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/sysctrl/hpl_sysctrl.d" -MT"hpl/sysctrl/hpl_sysctrl.d" -MT"hpl/sysctrl/hpl_sysctrl.o"  -o "hpl/sysctrl/hpl_sysctrl.o" "../hpl/sysctrl/hpl_sysctrl.c"
+Finished building: ../hpl/sysctrl/hpl_sysctrl.c
+Building file: ../hpl/core/hpl_init.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/core/hpl_init.d" -MT"hpl/core/hpl_init.d" -MT"hpl/core/hpl_init.o"  -o "hpl/core/hpl_init.o" "../hpl/core/hpl_init.c"
+Finished building: ../hpl/core/hpl_init.c
+Building file: ../hal/utils/src/utils_list.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/utils/src/utils_list.d" -MT"hal/utils/src/utils_list.d" -MT"hal/utils/src/utils_list.o"  -o "hal/utils/src/utils_list.o" "../hal/utils/src/utils_list.c"
+Finished building: ../hal/utils/src/utils_list.c
+Building file: ../hpl/core/hpl_core_m0plus_base.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/core/hpl_core_m0plus_base.d" -MT"hpl/core/hpl_core_m0plus_base.d" -MT"hpl/core/hpl_core_m0plus_base.o"  -o "hpl/core/hpl_core_m0plus_base.o" "../hpl/core/hpl_core_m0plus_base.c"
+Finished building: ../hpl/core/hpl_core_m0plus_base.c
+Building file: ../hal/utils/src/utils_assert.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/utils/src/utils_assert.d" -MT"hal/utils/src/utils_assert.d" -MT"hal/utils/src/utils_assert.o"  -o "hal/utils/src/utils_assert.o" "../hal/utils/src/utils_assert.c"
+Finished building: ../hal/utils/src/utils_assert.c
+Building file: ../hpl/pac/hpl_pac.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/pac/hpl_pac.d" -MT"hpl/pac/hpl_pac.d" -MT"hpl/pac/hpl_pac.o"  -o "hpl/pac/hpl_pac.o" "../hpl/pac/hpl_pac.c"
+Finished building: ../hpl/pac/hpl_pac.c
+Building file: ../hpl/pm/hpl_pm.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/pm/hpl_pm.d" -MT"hpl/pm/hpl_pm.d" -MT"hpl/pm/hpl_pm.o"  -o "hpl/pm/hpl_pm.o" "../hpl/pm/hpl_pm.c"
+Finished building: ../hpl/pm/hpl_pm.c
+Building file: ../hal/src/hal_usart_sync.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_usart_sync.d" -MT"hal/src/hal_usart_sync.d" -MT"hal/src/hal_usart_sync.o"  -o "hal/src/hal_usart_sync.o" "../hal/src/hal_usart_sync.c"
+Finished building: ../hal/src/hal_usart_sync.c
+Building file: ../stdio_redirect/gcc/read.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "stdio_redirect/gcc/read.d" -MT"stdio_redirect/gcc/read.d" -MT"stdio_redirect/gcc/read.o"  -o "stdio_redirect/gcc/read.o" "../stdio_redirect/gcc/read.c"
+Finished building: ../stdio_redirect/gcc/read.c
+Building file: ../hpl/gclk/hpl_gclk.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/gclk/hpl_gclk.d" -MT"hpl/gclk/hpl_gclk.d" -MT"hpl/gclk/hpl_gclk.o"  -o "hpl/gclk/hpl_gclk.o" "../hpl/gclk/hpl_gclk.c"
+Finished building: ../hpl/gclk/hpl_gclk.c
+Building file: ../stdio_start.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "stdio_start.d" -MT"stdio_start.d" -MT"stdio_start.o"  -o "stdio_start.o" "../stdio_start.c"
+Finished building: ../stdio_start.c
+Building file: ../hal/src/hal_init.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_init.d" -MT"hal/src/hal_init.d" -MT"hal/src/hal_init.o"  -o "hal/src/hal_init.o" "../hal/src/hal_init.c"
+Finished building: ../hal/src/hal_init.c
+Building file: ../hal/src/hal_crc_sync.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_crc_sync.d" -MT"hal/src/hal_crc_sync.d" -MT"hal/src/hal_crc_sync.o"  -o "hal/src/hal_crc_sync.o" "../hal/src/hal_crc_sync.c"
+Finished building: ../hal/src/hal_crc_sync.c
+Building file: ../main.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "main.d" -MT"main.d" -MT"main.o"  -o "main.o" "../main.c"
+Finished building: ../main.c
+Building file: ../samd21a/gcc/system_samd21.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "samd21a/gcc/system_samd21.d" -MT"samd21a/gcc/system_samd21.d" -MT"samd21a/gcc/system_samd21.o"  -o "samd21a/gcc/system_samd21.o" "../samd21a/gcc/system_samd21.c"
+Finished building: ../samd21a/gcc/system_samd21.c
+Building file: ../hpl/rtc/hpl_rtc.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/rtc/hpl_rtc.d" -MT"hpl/rtc/hpl_rtc.d" -MT"hpl/rtc/hpl_rtc.o"  -o "hpl/rtc/hpl_rtc.o" "../hpl/rtc/hpl_rtc.c"
+Finished building: ../hpl/rtc/hpl_rtc.c
+Building file: ../examples/driver_examples.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "examples/driver_examples.d" -MT"examples/driver_examples.d" -MT"examples/driver_examples.o"  -o "examples/driver_examples.o" "../examples/driver_examples.c"
+Finished building: ../examples/driver_examples.c
+Building file: ../driver_init.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "driver_init.d" -MT"driver_init.d" -MT"driver_init.o"  -o "driver_init.o" "../driver_init.c"
+Finished building: ../driver_init.c
+Building file: ../hpl/sercom/hpl_sercom.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/sercom/hpl_sercom.d" -MT"hpl/sercom/hpl_sercom.d" -MT"hpl/sercom/hpl_sercom.o"  -o "hpl/sercom/hpl_sercom.o" "../hpl/sercom/hpl_sercom.c"
+Finished building: ../hpl/sercom/hpl_sercom.c
+Building file: ../hal/src/hal_gpio.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_gpio.d" -MT"hal/src/hal_gpio.d" -MT"hal/src/hal_gpio.o"  -o "hal/src/hal_gpio.o" "../hal/src/hal_gpio.c"
+Finished building: ../hal/src/hal_gpio.c
+Building file: ../hal/utils/src/utils_event.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/utils/src/utils_event.d" -MT"hal/utils/src/utils_event.d" -MT"hal/utils/src/utils_event.o"  -o "hal/utils/src/utils_event.o" "../hal/utils/src/utils_event.c"
+Finished building: ../hal/utils/src/utils_event.c
+Building file: ../hal/src/hal_sleep.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_sleep.d" -MT"hal/src/hal_sleep.d" -MT"hal/src/hal_sleep.o"  -o "hal/src/hal_sleep.o" "../hal/src/hal_sleep.c"
+Finished building: ../hal/src/hal_sleep.c
+Building file: ../hpl/dmac/hpl_dmac.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/dmac/hpl_dmac.d" -MT"hpl/dmac/hpl_dmac.d" -MT"hpl/dmac/hpl_dmac.o"  -o "hpl/dmac/hpl_dmac.o" "../hpl/dmac/hpl_dmac.c"
+Finished building: ../hpl/dmac/hpl_dmac.c
+Building file: ../atmel_start.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "atmel_start.d" -MT"atmel_start.d" -MT"atmel_start.o"  -o "atmel_start.o" "../atmel_start.c"
+Finished building: ../atmel_start.c
+Building file: ../hpl/tc/hpl_tc.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/tc/hpl_tc.d" -MT"hpl/tc/hpl_tc.d" -MT"hpl/tc/hpl_tc.o"  -o "hpl/tc/hpl_tc.o" "../hpl/tc/hpl_tc.c"
+Finished building: ../hpl/tc/hpl_tc.c
+Building file: ../hal/src/hal_atomic.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hal/src/hal_atomic.d" -MT"hal/src/hal_atomic.d" -MT"hal/src/hal_atomic.o"  -o "hal/src/hal_atomic.o" "../hal/src/hal_atomic.c"
+Finished building: ../hal/src/hal_atomic.c
+Building file: ../hpl/dsu/hpl_dsu.c
+ARM/GNU C Compiler
+"arm-none-eabi-gcc" -x c -mthumb -DDEBUG -Os -ffunction-sections -mlong-calls -g3 -Wall -c -std=gnu99 \
+-D__SAMD21G18A__ -mcpu=cortex-m0plus  \
+-I"../" -I"../config" -I"../examples" -I"../hal/include" -I"../hal/utils/include" -I"../hpl/core" -I"../hpl/dmac" -I"../hpl/dsu" -I"../hpl/gclk" -I"../hpl/pac" -I"../hpl/pm" -I"../hpl/port" -I"../hpl/rtc" -I"../hpl/sercom" -I"../hpl/sysctrl" -I"../hpl/tc" -I"../hri" -I"../" -I"../config" -I"../stdio_redirect" -I"../" -I"../CMSIS/Include" -I"../samd21a/include"  \
+-MD -MP -MF "hpl/dsu/hpl_dsu.d" -MT"hpl/dsu/hpl_dsu.d" -MT"hpl/dsu/hpl_dsu.o"  -o "hpl/dsu/hpl_dsu.o" "../hpl/dsu/hpl_dsu.c"
+Finished building: ../hpl/dsu/hpl_dsu.c
+Building target: AtmelStart.elf
+Invoking: ARM/GNU Linker
+"arm-none-eabi-gcc" -o AtmelStart.elf "hal/src/hal_io.o" "stdio_redirect/stdio_io.o" "samd21a/gcc/gcc/startup_samd21.o" "stdio_redirect/gcc/write.o" "hal/utils/src/utils_syscalls.o" "hal/src/hal_timer.o" "hal/src/hal_pwm.o" "hal/src/hal_i2c_m_sync.o" "hal/src/hal_delay.o" "hpl/sysctrl/hpl_sysctrl.o" "hpl/core/hpl_init.o" "hal/utils/src/utils_list.o" "hpl/core/hpl_core_m0plus_base.o" "hal/utils/src/utils_assert.o" "hpl/pac/hpl_pac.o" "hpl/pm/hpl_pm.o" "hal/src/hal_usart_sync.o" "stdio_redirect/gcc/read.o" "hpl/gclk/hpl_gclk.o" "stdio_start.o" "hal/src/hal_init.o" "hal/src/hal_crc_sync.o" "main.o" "samd21a/gcc/system_samd21.o" "hpl/rtc/hpl_rtc.o" "examples/driver_examples.o" "driver_init.o" "hpl/sercom/hpl_sercom.o" "hal/src/hal_gpio.o" "hal/utils/src/utils_event.o" "hal/src/hal_sleep.o" "hpl/dmac/hpl_dmac.o" "atmel_start.o" "hpl/tc/hpl_tc.o" "hal/src/hal_atomic.o" "hpl/dsu/hpl_dsu.o" -Wl,--start-group -lm -Wl,--end-group -mthumb \
+-Wl,-Map="AtmelStart.map" --specs=nano.specs -Wl,--gc-sections -mcpu=cortex-m0plus \
+ \
+ \
+-T"../samd21a/gcc/gcc/samd21g18a_flash.ld" \
+-L"../samd21a/gcc/gcc"
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-atexit.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-fini.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-printf.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-puts.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-setbuf.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-setvbuf.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-wbuf.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-wsetup.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-__atexit.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-__call_atexit.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-fflush.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-findfp.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-fwalk.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-makebuf.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-malloc.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-stdio.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-writer.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-closer.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-fstatr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-fvwrite.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-isattyr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-lseekr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-readr.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+/usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/bin/ld: warning: /usr/lib/gcc/arm-none-eabi/4.9.3/../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+Finished building target: AtmelStart.elf
+"arm-none-eabi-objcopy" -O binary "AtmelStart.elf" "AtmelStart.bin"
+"arm-none-eabi-objcopy" -O ihex -R .eeprom -R .fuse -R .lock -R .signature  \
+        "AtmelStart.elf" "AtmelStart.hex"
+"arm-none-eabi-objcopy" -j .eeprom --set-section-flags=.eeprom=alloc,load --change-section-lma \
+        .eeprom=0 --no-change-warnings -O binary "AtmelStart.elf" \
+        "AtmelStart.eep" || exit 0
+"arm-none-eabi-objdump" -h -S "AtmelStart.elf" > "AtmelStart.lss"
+"arm-none-eabi-size" "AtmelStart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8060	    160	   9000	  17220	   4344	AtmelStart.elf
